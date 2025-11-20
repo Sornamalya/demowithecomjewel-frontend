@@ -1,5 +1,5 @@
 import React from "react";
-import Logo3 from './images/Logo3.png'
+import logo3 from './images/logo3.png';  // relative to Footer.jsx
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope, faGlobe, faLocationDot, faPhone} from '@fortawesome/free-solid-svg-icons'
 
@@ -9,7 +9,7 @@ function Footer() {
     <>
     <div className="row footerrow"  style={{marginTop:"30px",backgroundColor:"#F2BED1"}}>
         <div className="col-12 col-sm-6 col-md-4" style={{background:"transparent"}}>
-            <img id="logofoo" src={Logo3} alt="" width="200px" /> 
+            <img id="logofoo" src={logo3} alt="" width="200px" /> 
 
         </div>
         
